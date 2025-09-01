@@ -1,0 +1,6 @@
+numpy==2.3.2
+pandas==2.3.2
+matplotlib==3.10.6
+scikit-learn==1.7.1
+seaborn==0.13.2
+jupyter==1.0.0   # optional, only if you want to run notebooks
