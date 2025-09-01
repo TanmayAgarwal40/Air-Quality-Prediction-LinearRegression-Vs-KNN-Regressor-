@@ -1,4 +1,4 @@
-Air Quality Index (AQI) Predictor
+**Air Quality Index (AQI) Predictor**
 This project predicts Air Quality Index (AQI) pollutants (CO, NO₂, NMHC, etc.) using machine learning models such as Linear Regression and KNN Regression.
 The goal is to provide early insights into pollution levels using sensor and weather data, enabling better awareness, research, and decision-making.
 Features
