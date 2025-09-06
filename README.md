@@ -49,18 +49,18 @@ pip install -r requirements.txt
 jupyter notebook notebooks/AQI_Prediction.ipynb
 
 
-##📈 Results
+📈 Results
 Linear Regression performed well on continuous pollutant prediction but was sensitive to outliers.
 KNN Regressor handled non-linear patterns better but required tuning (K-values).
 Sample Visualization:
 (Add plots like Actual vs Predicted here for better visibility)
 
-##🔮 Future Improvements
+🔮 Future Improvements
 Try other regression models (Random Forest, Gradient Boosting)
 Incorporate time-series forecasting for AQI trends
 Deploy the model using Streamlit or Flask
 
-##🧑‍💻 Author
+🧑‍💻 Author
 Tanmay Agarwal
 LinkedIn : https://www.linkedin.com/in/tanmay-agarwal-496bb132a/
 GitHub : https://github.com/TanmayAgarwal40/Air-Quality-Prediction-LinearRegression-Vs-KNN-Regressor-
