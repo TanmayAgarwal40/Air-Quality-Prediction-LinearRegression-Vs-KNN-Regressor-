@@ -38,7 +38,7 @@ It compares **Linear Regression** and **KNN Regressor** in predicting pollutant 
 
 ---
 
-![Liner Reggession vs KNN Reggession]([results](https://github.com/TanmayAgarwal40/Air-Quality-Prediction-LinearRegression-Vs-KNN-Regressor-/blob/main/results/sample_results.png))
+![Liner Reggession vs KNN Reggession](https://github.com/TanmayAgarwal40/Air-Quality-Prediction-LinearRegression-Vs-KNN-Regressor-/blob/main/results/sample_results.png)
 
 
 ## 🚀 How to Run
