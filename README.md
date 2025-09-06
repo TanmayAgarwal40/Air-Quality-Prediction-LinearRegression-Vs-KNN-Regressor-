@@ -1,86 +1,66 @@
 # 🌍 Air Quality Prediction: Linear Regression vs KNN Regressor
 
-This project predicts **Air Quality Index (AQI) pollutants** (CO, NO₂, NMHC, etc.) using machine learning.  
-It compares **Linear Regression** and **KNN Regressor** models to evaluate prediction accuracy and insights into pollution patterns.
+This project focuses on predicting **Air Quality Index (AQI)** pollutants using **Machine Learning models**.  
+It compares **Linear Regression** and **KNN Regressor** in predicting pollutant concentrations like CO, NO₂, and NMHC.
 
 ---
 
 ## 📌 Features
-- Multi-pollutant prediction (CO, NO₂, NMHC, etc.)
-- Implements **Linear Regression** and **KNN Regressor**
-- Model evaluation using:
+- Data preprocessing and cleaning  
+- Predictive modeling using:
+  - **Linear Regression**
+  - **KNN Regressor**
+- Model evaluation with metrics:
   - **RMSE (Root Mean Square Error)**
   - **R² Score**
-- Visualizations of actual vs predicted values
-- Side-by-side model comparison
-- Data preprocessing for missing/invalid values
+- Visualization of actual vs predicted values  
+- Clear comparison of both models  
 
 ---
 
-## 📊 Tech Stack
+## 📊 Technologies Used
 - **Python 3**
-- **pandas, numpy** – data handling
-- **scikit-learn** – machine learning models & metrics
-- **matplotlib, seaborn** – visualization
+- **pandas, numpy** (data preprocessing)
+- **scikit-learn** (machine learning models & metrics)
+- **matplotlib, seaborn** (visualizations)
 
 ---
 
 ## 📂 Project Structure
 ├── data/ # Dataset files
-├── notebooks/ # Jupyter notebooks
-│ └── AQI_Prediction.ipynb
+├── notebooks/ # Jupyter notebooks for experiments
 ├── src/ # Source code
-│ ├── preprocess.py # Data cleaning
-│ ├── train.py # Model training
+│ ├── preprocess.py # Data cleaning and preprocessing
+│ ├── train.py # Model training scripts
 │ └── evaluate.py # Model evaluation
-├── results/ # Plots (e.g. rmse_comparison.png, co_actual_vs_pred.png)
-├── requirements.txt # Dependencies
-└── README.md # Documentation
-
+├── results/ # Plots and model comparisons
+└── README.md # Project documentation
 
 ---
 
-## 🚀 Installation & Usage
-1. Clone the repo:
+## 🚀 How to Run
+1. Clone this repository:
    ```bash
    git clone https://github.com/TanmayAgarwal40/Air-Quality-Prediction-LinearRegression-Vs-KNN-Regressor-.git
    cd Air-Quality-Prediction-LinearRegression-Vs-KNN-Regressor-
-   
-2. Install dependencies:
+
 pip install -r requirements.txt
 
-3. Run the notebook:
 jupyter notebook notebooks/AQI_Prediction.ipynb
 
 
-📈 Results
-Linear Regression:
-Good for continuous trends
-Sensitive to outliers
-KNN Regressor:
-Better at capturing non-linear patterns
-Requires tuning of K-values
-Example Visualization:
+##📈 Results
+Linear Regression performed well on continuous pollutant prediction but was sensitive to outliers.
+KNN Regressor handled non-linear patterns better but required tuning (K-values).
+Sample Visualization:
+(Add plots like Actual vs Predicted here for better visibility)
 
-🌐 Applications
-Government – early warning systems & policy-making
-Education – teaching ML with real-world datasets
-Public Awareness – understanding pollution patterns
-🔮 Future Improvements
-Try additional models (Random Forest, Gradient Boosting)
-Explore time-series forecasting of AQI trends
-Build an interactive dashboard (Streamlit/Flask)
-📚 References
-UCI Machine Learning Repository: Air Quality Dataset
-WHO Air Quality Standards
-🧑‍💻 Author
+##🔮 Future Improvements
+Try other regression models (Random Forest, Gradient Boosting)
+Incorporate time-series forecasting for AQI trends
+Deploy the model using Streamlit or Flask
+
+##🧑‍💻 Author
 Tanmay Agarwal
-LinkedIn
-GitHub
-
-
----
-
-👉 This will **fix conflicts, remove duplicates, improve formatting, and make it recruiter-friendly**.  
-
-Do you want me to also **generate a ready `requirements.txt`** file (based on your notebook) so you can just upload it to your repo?
+LinkedIn : https://www.linkedin.com/in/tanmay-agarwal-496bb132a/
+GitHub : https://github.com/TanmayAgarwal40/Air-Quality-Prediction-LinearRegression-Vs-KNN-Regressor-
