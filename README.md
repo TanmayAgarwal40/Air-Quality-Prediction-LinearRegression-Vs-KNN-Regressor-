@@ -58,6 +58,9 @@ KNN Regressor handled non-linear patterns better but required tuning (K-values).
 Sample Visualization:
 (Add plots like Actual vs Predicted here for better visibility)
 
+Certificate with Froyo Technology Private Limited
+(https://github.com/TanmayAgarwal40/Air-Quality-Prediction-LinearRegression-Vs-KNN-Regressor-/blob/main/FROYO%20CERTIFICATE%20_1%20copy.jpeg)
+
 🔮 Future Improvements
 Try other regression models (Random Forest, Gradient Boosting)
 Incorporate time-series forecasting for AQI trends
